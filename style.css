@@ -1,0 +1,14 @@
+canvas{
+    border-style: double;
+    border-color: aqua;
+    animation-name: c;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes c{
+    from{box-shadow:3 3 20 whitesmoke;}
+    to{box-shadow:-3 -3 20 dimgrey ;}
+}
+canvas.hover{
+    background: image(2.jpeg);
+}
